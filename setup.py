@@ -23,7 +23,7 @@ class Peerster:
                            "-gossipAddr", gossip_addr,
                            "-name", name,
                            "-peers", ",".join(peers),
-                           "-debug",
+                           # "-debug",
                            "-antiEntropy", str(anti_entropy),
                            "-rtimer", str(rtimer)]
 
